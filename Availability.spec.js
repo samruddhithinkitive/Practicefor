@@ -1,4 +1,4 @@
-import { test } from '@playwright/test';
+import { test };
 
 test('test', async ({ page }) => {
     await page.goto('https://stage_aithinkitive.uat.provider.ecarehealth.com/auth/login');
